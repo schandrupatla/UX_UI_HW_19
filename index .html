@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HW-19_Responsive Website Design Elements</title>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="Navigation">
+      <div class="inline-block logo">
+        <img src="Images/Logo_3.png" >
+      </div>  
+        <nav class="inline-block"> 
+          <ul class="navUl" id="toggleContainer">
+            <li class= "inline-block toggle">
+              <a class="current" href="#idAboutMe">About Me</a>
+            </li>
+            <li class= "inline-block toggle">
+              <a class="current" href="#idSkills">Skills</a>
+            </li>
+            <li class= "inline-block toggle">
+              <a class="current" href="#idMyWork">Work</a>
+            </li>
+            <li class= "inline-block toggle">
+              <a class="current" href="#idFooter">Contact</a>
+            </li>
+          </ul>
+        </nav>    
+      </div>  
+    </header>
+
+    <section id="idHero" class="heroImg">
+      <div class="heroContent">
+          <h2>Sridevi </h2>
+      </div>
+      <div class="heroContent">
+        <h1>Chandrupatla</h1>
+      </div>
+      <div class="disk">
+            <img id ="diskImage" class="rotate" src= "Images/diskImage.png" width="50px" >
+            <img class="diskArrow" src="Images/left_arrow.png" width=25px;>
+            <p >click me</p>
+          </div>
+      <div class="interests">
+        <p class="design">DESIGN</p>
+        <p class="prototype">PROTOTYPE</p>
+        <p class="code">CODE</p>
+      </div>
+      <div class = "resume-section"> 
+        <h3 class="resume-header">Resume</h3> 
+        <img class ="resumeImage" src= "Images/Resume.png" alt="Resume" width="25">
+      </div>
+      <div class="Arrow">
+        <a href="#idAboutMe">
+            <img class ="bounceArrow" src= "Images/downArrow2.png" width="50px" >
+          </a>
+      </div>
+    </section>
+
+    <section id="idAboutMe" class="profileImg">
+      <h1 #aboutme>About Me</h1>
+      <div class="content">
+        <img class="myProfilePic" src="Images/Sree_Profile_Pic.png">
+        <p>Hello,<br>
+          I have been developing software applications throughout my career. While doing so, I developed an interest to
+          understand UX experience and design. I am now on a new journey to explore this passion.
+  
+          I enjoy solving user-centric UI design challenges and problem-solving. My strengths lie in my strong
+          communication skills, observational skills, thirst for learning, and being a team player.
+  
+          I am a good listener and believe analyzing the problem from the user’s perspective helps to empathize with the
+          user. I believe it’s important to know people at a deeper level and understand the “why” behind the decisions in
+          order to effectively understand their needs. There are always multiple ways to solve a problem but giving the
+          most feasible solution is most important.
+  
+          For my projects I used tools like Figma, Adobe Xd, Invision, Miro, and Trello.
+        
+        </p>
+      </div>
+    </section>
+    
+    <!--  My UX Skills section coded using CSS flex -->
+    <section id="idSkills" class="mySkills">
+      <h1>My UX Skills</h1>
+    </div>
+      <div class="flexContainer">
+        <div  class="Skills">
+          <img src="" />
+          <h3>USER RESEARCH</h3>
+          <ul>
+            <li class="skillsSet">User flows</li> </li>
+            <li class="skillsSet">Data analysis</li>
+            <li class="skillSet">Interviewing</li>
+
+            <li class="skillsSet">Eye tracking</li> </li>
+            <li class="skillsSet">Usability testing</li>
+            <li class="skillSet">Heuristic evaluation</li>
+
+            <li class="skillsSet">Ideation</li> </li>
+            <li class="skillsSet">Suvey creation</li>
+            <li class="skillSet">User Personas</li>
+
+            <li class="skillsSet">Contectual enquiry</li> </li>
+            <li class="skillsSet">Evaluation</li>
+            <li class="skillSet">Task Analysis</li>
+
+            <li class="skillsSet">Journey map</li> </li>
+            <li class="skillsSet">Affinity Diagram</li>
+            <li class="skillSet">Empathy map</li>
+            <li class="skillsSet">Prioritazation</li>
+            <li class="skillSet">Story board</li>
+
+          </ul>
+        </div>
+        <div class="Skills">
+          <img src="" />
+          <h3>DESIGN SKILLS</h3>
+          <ul>
+          <!-- <p>paragraph about your skill-2</p> -->
+          <li class="skillsSet">Wireframing</li> </li>
+            <li class="skillsSet">Interface sketching</li>
+            <li class="skillSet">Interactive prototyping</li>
+            <li class="skillsSet">Information Architecture</li>
+            <li class="skillSet">Interaction Design</li>
+            <li class="skillSet">Design Wireframing</li>
+            <li class="skillsSet">Task flow</li>
+            <li class="skillSet">Style guide</li>
+            <li class="skillSet">Web Prototyping</li>
+            <li class="skillSet">Web Development</li>
+          </ul>
+        </div>
+        <div class="Skills">
+          <!-- <img src=" " /> -->
+          <h3>TEAM WORKING SKILLS</h3>
+          <ul>
+            <!-- <p>paragraph about your skill-2</p> -->
+            <li class="skillsSet">Collaborating</li> </li>
+              <li class="skillsSet">Communication</li>
+              <li class="skillSet">Problem solving</li>
+              <li class="skillsSet">Active Listening</li>
+              <li class="skillSet">Conflict resolution</li>
+              <li class="skillSet">Critiquing</li>
+              <li class="skillsSet">Mentoring People</li>
+              <li class="skillSet">Management</li>
+            </ul>
+        </div>
+      
+    </section>
+    <section class="toolsSection">
+      <div class="tools" >
+        <div>
+        <h2 class="toolsHead" >Tools</h2>
+      </div>
+        <!-- <img class ="toolsImg" src="Images/tools.png"> -->
+        <div class="toolsdiv">
+        <div class="toolsList">
+          <ul>
+            <!-- <p>paragraph about your skill-2</p> -->
+            <li class="toolset">Miro</li> 
+            <li class="toolset">Invision</li>
+              <li class="toolset">Adobe Xd</li>
+            </ul>
+          </div>
+
+            <div class="toolsList">
+            <ul>
+              <li class="toolset">Figma</li>
+              <li class="toolset">HTML</li>
+              <li class="toolset">CSS</li>
+            </ul>
+          </div>
+
+          <div class="toolsList">
+            <ul>
+              <li class="toolset">JavaScript</li>
+              <li class="toolset">Bootstrap</li>
+              <li class="toolset">Webflow</li>
+            </ul>
+          </div>
+        </div> <!-- toolsdiv -->
+
+        </div>
+     
+    </section>
+    
+
+    <!-- My Work Section Constructed using CSS Grid -->
+    <section id="idMyWork" class="myWork">
+      <h1> My Work || <a href="https://www.google.com/"><small>View all projects</small></a></h1>
+   
+      <div class="workGrid">
+         <!-- case study1- "Adopt A Star" -->
+        
+        <div class="C1Image">
+          <a href="https://www.google.com/">
+          <img class="C11Image" src="Images/AdoptaStar.jpg" width="200" />
+          </a>
+        </div>
+          <div class="caseStudy1">
+            <h4>Adopt A Star</h4>
+            <p>
+              Rich animated and inspired <br> by night sky dark theme website
+            redesigned<br> for a non profit organization “Adopt A Star”.
+          </p>
+        </div>
+
+        <!-- case study2- "Barscape" -->
+          <div class="C2Image">
+          <a href="https://www.google.com/">
+            <img class="C11Image" src="Images/Barscape.png" width="160px" />
+            </a>
+          </div>
+          <div class="caseStudy2">
+          <h4>Barscape</h4>
+          <p>“Barscape” is a mobile application <br>that helps bar goers find and search <br>for bars based on their personal preferences
+          </p>
+        </div>
+            <!-- case study3- "CA-DMV" -->
+            <div class="C3Image">
+              <a href="https://www.google.com/">
+              <img class="C11Image" src="Images/CA_DMV.png" width="200px" />
+              </a>
+            </div>
+              <div class="caseStudy3">
+                <h4>
+                  <p>
+                  CA-DMV</h4>
+                </p>
+                <p>
+                  A redesigned and revamped government website <br> “California DMV” with resolved content issues based <br>on user priorities and navigation accessibility issues.
+                </p>
+              </div>   
+           
+        </div> <!--end of workGrid -->
+      
+    </section>
+
+  <footer id="idFooter">
+    <div>
+      <div>
+      <span class="footer-contact">Contact me at:</span>
+    </div>
+ 
+    <ul>
+      <li class="footer-inline-block">Email: sridevi.chandrupatla@gmail.com</li>
+      <li class="footer-inline-block">phone: 408-309-6094</li>
+    </ul>
+  </div>
+  <div>
+    <p class="footer-p">© SRIDEVI CHANDRUPATLA 2020</p>
+
+  </div>
+
+      <ul class ="footer-ul">
+        <div>
+          <li class="footer-social-icons share">Share on:</li>
+        </div>
+        <li class="footer-social-icons">
+          <a href="https://www.google.com/">
+        <img src ="Images/Facebook.png" width="25px">
+      </a>
+      </li> 
+        <li class="footer-social-icons">
+          <a href="https://www.google.com/">
+            <img src ="Images/Twitter.png" width="25px">
+            </a>
+        </li>
+        <li class="footer-social-icons">
+          <a href="https://www.google.com/">
+          <img src ="Images/LinkedIn.png" width="25px">
+        </a>
+        </li>
+      </ul>
+      <div>
+        <p class="footer-p2">© SRIDEVI CHANDRUPATLA 2020</p>
+    
+      </div>
+       
+    </footer>
+    <!--  javascript tag -->
+      <!-- Add the script tag to jQuery below. -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+  
+
+</html>
